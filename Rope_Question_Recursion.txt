@@ -1,0 +1,13 @@
+Question:
+
+Given a rope of length n and three values (a,b,c) , we need to make maximum pieces such that 
+every piece of rope has length in the set(a,b,c).
+
+example Input: n=5, a=1, b=2, c=3
+       Output: 5 // five pieces of length 1 i.e a
+
+        Input: n=23, a=9, b=11, c=12
+       Output: 2 // one piece of 11 i.e b and one piece of 12 i.e c
+   
+        Input: n=5, a=2, b=4, c=6
+       Output: -1 // no such piece exists
